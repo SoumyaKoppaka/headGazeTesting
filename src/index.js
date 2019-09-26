@@ -254,13 +254,13 @@ function main(sources) {
         // CONSOLE STATEMENTS TO OUTPUT
         if (!detectedEye) {
           // console.log("2 Eye not in frame");
-          result = 2
+          result = 0
         } else if (angle < 16) {
           // console.log("1 Facing Away");
           result = 1
         } else {
           // console.log("0 All good");
-          result = 0
+          result = 2
         }
 
 
